@@ -1,0 +1,135 @@
+.h-font{
+    font-family: 'Arbutus', serif;
+}
+
+*{
+    font-family: 'Lora', serif;
+}
+
+.nav-item{
+    padding-right:30px;
+}
+
+.nav-item a{
+    border: 3px solid transparent;
+    border-radius: 0px;
+}
+
+.nav-item a:hover,
+.nav-item a.active{
+    border-bottom: 3px solid #F66844;
+    border-radius: 0px;
+}
+
+
+.navbar-brand{
+    background: linear-gradient(90deg, #F66844 0%, rgba(255, 146, 27, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-1{
+    background: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
+    border-radius: 0px;
+    padding:8px;
+    color:white;
+    border:1px solid #F66844;
+    transition: all 1s ease-in-out;
+}
+
+.btn-1:hover{
+    background: transparent;
+    border-radius: 0px;
+    padding:8px;
+    color:white;
+    border:1px solid #F66844;
+}
+
+.btn-2{
+    border: 1px solid #F66844;
+    border-radius:0px;
+    padding:8px;
+    color:white;
+    background-color:transparent;
+    transition: all 1s ease-in-out;
+}
+
+.btn-2:hover{
+    background: linear-gradient(90deg, #F66844 0%, #FF921B 100%);
+    border-radius: 0px;
+    padding:8px;
+    color:white;
+    border:1px solid #F66844;
+}
+
+
+.transform-box{
+    position:absolute;
+    background: linear-gradient(180deg, rgba(57, 57, 57, 0.25) 0%, rgba(57, 57, 57, 0.00) 100%);
+    backdrop-filter: blur(2px);
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #F66844;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(246,104,68, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input{
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:#F66844 !important;
+}
+
+input::placeholder{
+    color:#F66844 !important;
+}
+
+textarea{
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:#F66844 !important;
+}
+
+textarea::placeholder{
+    color:#F66844 !important;
+}
+
+/* AutoFill webkit styles */
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid white;
+  -webkit-text-fill-color: #F66844;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
+
